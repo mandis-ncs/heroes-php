@@ -9,17 +9,17 @@
 </head>
 <body>
 
-<form action="new.php" class="form" method="post"> <!--formulario - action=caminho - method=se vai pegar por post ou por get--> 
-    <label for="">Escolha seu universo favsssorito: </label> <!--usado com form ao inves de h1 ou p-->
+<form action="new.php" class="form" method="post"> <!--formulario - action=caminho - method=se vai pegar por post ou por get
+    <label for="">Escolha seu universo favorito: </label> usado com form ao inves de h1 ou p
     <br>
     <input type="text" name="universo" placeholder="Digite o universo aqui">
-    <br>
+    <br>-->
     <label for="">Clique no seu heroi favorito: </label>
     <div class="menu">
-    <a href="new.php?heroi=batman" class="tecla batman">batman</a>
-    <a href="new.php?heroi=superman" class="tecla superman">superman</a>
-    <a href="new.php?heroi=coringa" class="tecla coringa">coringa</a>
-    <a href="new.php?heroi=groot" class="tecla groot">groot</a>
+    <a href="new.php?heroi=batman" class="tecla batman">Batman</a>
+    <a href="new.php?heroi=superman" class="tecla superman">Superman</a>
+    <a href="new.php?heroi=coringa" class="tecla coringa">Coringa</a>
+    <a href="new.php?heroi=groot" class="tecla groot">Groot</a>
     </div>
 </form>
     
